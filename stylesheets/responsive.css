@@ -1,0 +1,110 @@
+@media only screen and (min-width: 1440px) {
+  /* WXGA+ */
+}
+
+@media only screen and (min-device-width: 1280px) and (max-device-width: 1439px) {
+  /* Desktop */
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) {
+  /* iPad Pro 11"*/
+    html{
+        height: 2500px;
+    }
+
+    .booksbig
+    {transform: scale(0.6) rotate(30deg);
+    position: absolute;
+    left: -300px;
+    top: -300px;
+    }
+    .resistorsmall, .resistorblock
+    {transform: scale(1.2);
+     margin-left: 1200px;
+        margin-top: 10px;
+    }
+    p{
+    font-size: 12px;
+    line-height: 17px;
+    width: 345px;
+    }
+    .text1{
+    margin-top: 50px;
+    justify-content: flex-end;
+    }
+    h1{
+    font-size: 55px;
+    }
+
+    h1:hover{
+    font-size: 70px;
+    }
+
+    .arduino, .ledblock, .ledarduino, .led{
+        transform: scale(0.6) translateY(-400px) translateX(180px);
+    }
+    .led{
+        display: none;
+    }
+    .photoblock, .photo, .led, .ledblock, .phototext
+    {transform: scale(0.5);
+        margin-left: 10px;
+        margin-top: -500px;
+    }
+
+    .photo, .photoblock{
+        transform: scale(2) translateX(-250px) translateY(-100px);
+    }
+    .text2{
+        transform: scale(2) translateX(-250px) translateY(100px);
+    }
+    .ledbig{
+        transform: scale(0.5) translateX(-1000px) translateY(-1200px);
+    }
+    .arduino, .arduinoblock{
+        transform: scale(0.6) translateY(-1700px) translateX(-300px);
+    }
+    .ledresistorphoto, .ledmediumblock, .ledmedium, .resistorbigblock, .resistorbig, .photobigblock, .photobig{
+        transform: translateY(-550px) translateX(-100px);
+    }
+
+    .ledresistorphoto{
+    }
+
+    .text3{
+        transform: translateX(-120px) translateY(-1100px);
+    }
+
+    .ledmediumblock, .ledmedium{
+        transform: scale(1.5) translateY(-200px);
+    }
+
+    .photobig, .photobigblock{
+        transform: translateY(-550px) translateX(-500px) scale(1.2);
+    }
+
+    .text4{
+        transform: translateY(-100px) translateX(-120px);
+        position: relative;
+        z-index: -2;
+    }
+
+    .booksbottom{
+        transform: translateY(-1200px);
+        position: relative;
+        z-index: -1;
+    }
+
+    .scheme{
+        transform: scale(0.6) translateY(-1800px) translateX(-450px);
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 833px) {
+  /* iPhone 11*/
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 413px) {
+  /* iPhone SE */
+}

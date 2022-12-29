@@ -1,0 +1,22 @@
+body {
+font-family: 'Helvetica', sans-serif;
+background-color: #FCAE04;
+color: #010F0F;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: sans-serif;
+  font-weight: 400;
+  src: local('Helvetica'), local('HelveticaRegular.ttf'), url(../fonts/HelveticaRegular.ttf) format('ttf');
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  line-height: 19px;
+}

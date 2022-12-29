@@ -1,0 +1,81 @@
+.booksbig{
+  animation: moving 8s infinite ease-out;}
+
+@keyframes moving {
+  0% {right: 0px;}
+  100% {right: -13000px;}
+}
+
+.resistorsmall{
+  animation: rotateresistor 6s infinite linear;
+}
+
+@keyframes rotateresistor {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.arduino{
+  animation: rotatearduino 6s infinite linear;
+}
+
+@keyframes rotatearduino {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.led{
+  animation: rotateled 6s infinite linear;
+}
+
+@keyframes rotateled {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg);}
+}
+
+.photo{
+  animation: rotatephoto 6s infinite linear;
+}
+
+@keyframes rotatephoto {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg)}
+}
+
+.arduino2{
+  animation: rotatearduino2 6s infinite linear;
+}
+
+@keyframes rotatearduino2 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.photobig{
+  animation: rotatephotobig 6s infinite linear;
+}
+
+@keyframes rotatephotobig {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg)}
+}
+
+.resistorbig{
+  animation: rotateresistorbig 6s infinite linear;
+}
+
+@keyframes rotateresistorbig {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.ledmedium{
+  animation: rotateledmedium 6s infinite linear;
+}
+
+@keyframes rotateledmedium {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg);}
+}
